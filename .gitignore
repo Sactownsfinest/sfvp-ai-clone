@@ -1,0 +1,35 @@
+# Assets — do NOT commit Shennel's recordings/photos (large files, private)
+assets/voice_samples/
+assets/base_videos/
+assets/photos/
+assets/personality/writing_samples.txt
+
+# Generated outputs
+outputs/
+
+# Fine-tuned model weights (large binary files)
+fine_tuned_model/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Secrets
+config.py
+*.env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Colab-generated
+*.tmp
